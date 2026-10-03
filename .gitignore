@@ -1,0 +1,24 @@
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Notebook and test caches
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
